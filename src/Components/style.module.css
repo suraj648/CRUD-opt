@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav>a{
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#body{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body>form{
+    height: 480px;
+    width: 390px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#body>form>label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#body>form>input{
+    height: 40px;
+    width: 320px;
+    margin-bottom: 25px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#body>form>button{
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+#user{
+    height: 90vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#user>table{
+    height: 350px;
+    width: 280px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: red; */
+
+}
+
+#user>table>tr{
+    /* background-color: blue; */
+    width: 90%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#user>table>tr>td{
+    width: 90%;
+    height: 90%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#user>table>tr>td>button{
+    height: 65%;
+    width: 60%;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    background-color: cadetblue;
+
+}

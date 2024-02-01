@@ -1,0 +1,50 @@
+{
+  "bank": [
+    {
+      "id": 1,
+      "eAcc": "suraj"
+    },
+    {
+      "eAcc": "gourav",
+      "aType": "saving",
+      "aBal": "3400",
+      "id": 3
+    },
+    {
+      "eAcc": "shekher",
+      "aType": "saving",
+      "aBal": "23000",
+      "id": 4
+    },
+    {
+      "eAcc": "abc",
+      "aType": "xyz",
+      "aBal": "123",
+      "id": 5
+    },
+    {
+      "eAcc": "efg",
+      "aType": "wxy",
+      "aBal": "234",
+      "id": 6
+    },
+    {
+      "eAcc": "golden",
+      "aType": "current",
+      "aBal": "4560",
+      "id": 7
+    },
+    {
+      "eAcc": "madhurima",
+      "aType": "current",
+      "aBal": "450000",
+      "id": 8
+    },
+    {
+      "eAcc": "monu",
+      "aType": "saving",
+      "aBal": "2000",
+      "id": 9
+    }
+  ]
+}
